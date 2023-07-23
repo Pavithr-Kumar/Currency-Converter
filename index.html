@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency.css">
+    <script src="https://kit.fontawesome.com/e244421aaf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header><h2>Currency Converter</h2></header>
+        <div class="content">
+            <p>Enter Amount</p>
+            <input type="text" placeholder="enter value" id="input">
+            <div class="converter">
+                <div class="col1">
+                    <p>From</p>
+                    <div class="selection-box">
+                        <img src="https://flagsapi.com/BE/flat/64.png" alt="">
+                        <select name="countries" id="select">
+                           
+                        </select>
+                      </div>
+                </div>
+                  <div class="icon">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                  </div>
+                <div class="col2">
+                    <p>To</p>
+                    <div class="selection-box">
+                        <img src="https://flagsapi.com/AG/flat/64.png" alt="">
+                        <select name="countries" id="select">
+                           
+                        </select>
+                      </div>
+                </div>
+                
+            </div>
+            <div class="result">
+                <p></p>
+            </div>
+            <div class="result-btn">
+                <button>Generate Exchange Rate</button>
+            </div>
+            
+        </div>
+
+
+
+
+
+        
+
+    </div>
+
+
+
+    
+    <script src="country-list.js"></script>
+    <script src="currency.js"></script>
+</body>
+</html>
